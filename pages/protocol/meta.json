@@ -1,4 +1,6 @@
 {
-  "overview": "Protocol Overview",
-  "functions": "Functions"
+  "concepts": "Core Concepts",
+  "funds": "Flow of Funds",
+  "schema": "Data Schema",
+  "contracts": "Smart Contracts"
 }

@@ -1,6 +1,8 @@
 {
     "index": "Aikido Docs",
     "get-started": "Getting Started",
-    "concepts": "Core Concepts",
-    "protocol": "Protocol Overview"
+    "protocol": "Protocol Overview",
+    "advanced": "Advanced Options",
+    "guides": "Community Guides",
+    "developers": "Building on Aikido"
 }
