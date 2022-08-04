@@ -1,22 +1,33 @@
-# [Nextra](https://nextra.vercel.app)
-
+# Aikido Docs: Outline
 _Warning: this project is not production ready, API might change without notice._
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
+# Overview
 
-![](/public/demo.png)
+# Getting Started
+- Creating a Bounty
+- Participating in a Bounty
+- How Rewards Work
+- Sharing Bounties 
 
-## Development
+# Advanced Settings
+- Applications
+- Additional Funding
+- Discord Integration
 
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
+# Bounty Board
+- Creating a Bounty Board
+- Creating Bounties
+- Customizing Board (Settings)
 
-## Themes
+# Guides
+- When to Use Bounties
+- Creating a Good Bounty
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+# Protocol Overview
+- Core Concepts (Participants)
+- Flow of Funds (Actions)
+- Data Schema
 
----
-
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+# Building on Aikido
+- Subgraph

@@ -2,7 +2,5 @@
     "index": "Aikido Docs",
     "get-started": "Getting Started",
     "concepts": "Core Concepts",
-    "protocol": "Protocol Overview",
-    "bounties": "Creating Bounties",
-    "projects": "Project Workspaces"
+    "protocol": "Protocol Overview"
 }
