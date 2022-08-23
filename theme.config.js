@@ -1,7 +1,7 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/withmeed/aikido',
+  docsRepositoryBase: 'https://github.com/withmeed/aikido/blob/master',
+  titleSuffix: '',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Aikido</span>
@@ -19,12 +19,12 @@ export default {
       <meta name="description" content="Aikido: Product and Protocol Documentation" />
       <meta name="og:description" content="Aikido: Product and Protocol Documentation" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
+      <meta name="twitter:image" content="https://docs.aikido.work/og.png" />
+      <meta name="twitter:site:domain" content="docs.aikido.work" />
+      <meta name="twitter:url" content="https://docs.aikido.work" />
       <meta name="og:title" content="Aikido: Product and Protocol Documentation" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="og:image" content="https://docs.aikido.work/og.png" />
+      <meta name="apple-mobile-web-app-title" content="Aikido Documentation" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: false,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © Lab0324, Inc..</>,
   unstable_faviconGlyph: '🥷',
 }
