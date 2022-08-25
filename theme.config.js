@@ -1,7 +1,10 @@
+import React from 'react'
+
 export default {
   github: 'https://github.com/withmeed/aikido',
-  docsRepositoryBase: 'https://github.com/withmeed/aikido/blob/master',
-  titleSuffix: '',
+  docsRepositoryBase: 'https://github.com/withmeed/aikido-docs/blob/master',
+  titleSuffix: 'Aikdio Documentation',
+  floatTOC: true,
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Aikido</span>
@@ -32,7 +35,7 @@ export default {
       />
       <link
         rel="icon"
-        type="image/png"
+        type="image/png"  
         sizes="192x192"
         href="/android-icon-192x192.png"
       />
@@ -58,10 +61,13 @@ export default {
     </>
   ),
   search: true,
-  prevLinks: true,
+  floatTOC: true,
+  prevLinks: false,
   nextLinks: true,
   footer: false,
+  defaultMenuCollapsed: true,
   footerEditLink: 'Edit this page on GitHub',
   footerText: <>MIT {new Date().getFullYear()} © Lab0324, Inc..</>,
   unstable_faviconGlyph: '🥷',
+  darkMode: false,
 }

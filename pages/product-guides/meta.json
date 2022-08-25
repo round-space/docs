@@ -1,7 +1,9 @@
 {
+    "index": "Getting Started",
     "creating": "Creating a Bounty",
     "claims": "Participating with Bounties",
     "rewards": "How Rewards Work",
     "sharing": "Sharing Bounties",
-    "boards": "Bounty Boards"
+    "boards": "Bounty Boards",
+    "advanced": "Advanced Options"
 }

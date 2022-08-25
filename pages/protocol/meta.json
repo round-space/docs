@@ -3,5 +3,7 @@
   "concepts": "Core Concepts",
   "funds": "Flow of Funds",
   "schema": "Data Schema",
-  "contracts": "Smart Contracts"
+  "contracts": "Smart Contracts",
+  "subgraph": "Subgraph",
+  "sdk": "SDK"
 }
