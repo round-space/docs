@@ -4,6 +4,5 @@
   "funds": "Flow of Funds",
   "schema": "Data Schema",
   "contracts": "Smart Contracts",
-  "subgraph": "Subgraph",
-  "sdk": "SDK"
+  "build": "Building on Aikido",
 }

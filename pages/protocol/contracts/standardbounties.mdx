@@ -1,3 +1,98 @@
 # StandardBounties
 
-About StandardBounties
+## Public Functions
+
+```
+setMetaTxRelayer(): Sets the address of the meta transaction relayer
+```
+
+```
+issueBounty(): creates a new bounty
+```
+
+```
+issueAndContribute(): creates a new bounty and deposits token amounts
+```
+
+```
+contribute(): contribute tokens to an existing bounty
+```
+
+```
+refundContribution(): allows issuers to refund contributions made to a bounty, but only if it hasn't been paid out and deadline has elapsed
+```
+
+```
+refundContributions(): allow users to refund their contirbutions in bulk, but only if it hasn't been paid out and deadline has elapsed
+```
+
+```
+drainBounty(): drain funds from a bounty, but only if any payments haven't been made
+```
+
+```
+performAction(): perform a generalized action, such as applying for it (useful for marketplace specific actions you want to record)
+```
+
+```
+fulfillBounty(): allow contributors to fulfill the bounty to get paid out 
+```
+
+```
+updateFulfillment(): allow contributors to update their fulfillment submission
+```
+
+```
+acceptFulfillment(): allow any approver to accept a given submission
+```
+
+```
+fulfillAndAccept(): allow any approver to fulfill and accept submission simultaneously (useful if fulfillments are off chain)
+```
+
+```
+changeBounty(): allow issuers to change any data in the bounty
+```
+
+```
+changeIssuer(): allow issuers to change approver of the bounty
+```
+
+```
+changeIssuerAndApprover(): allow issuers to change approver and issuer of the bounty
+```
+
+```
+changeData(): allow issuers to change the ipfs data hash with bounty data 
+```
+
+```
+changeDeadline(): allow issuers to change deadline
+```
+
+```
+addIssuers(): allow issuer to add another issuer to the bounty
+```
+
+```
+addApprovers(): allow issuer to add an approver for the bounty 
+```
+
+## Events
+
+```
+event BountyIssued(uint _bountyId, address payable _creator, address payable[] _issuers, address[] _approvers, string _data, uint _deadline, address _token, uint _tokenVersion);
+event ContributionAdded(uint _bountyId, uint _contributionId, address payable _contributor, uint _amount);
+event ContributionRefunded(uint _bountyId, uint _contributionId);
+event ContributionsRefunded(uint _bountyId, address _issuer, uint[] _contributionIds);
+event BountyDrained(uint _bountyId, address _issuer, uint[] _amounts);
+event ActionPerformed(uint _bountyId, address _fulfiller, string _data);
+event BountyFulfilled(uint _bountyId, uint _fulfillmentId, address payable[] _fulfillers, string _data, address _submitter);
+event FulfillmentUpdated(uint _bountyId, uint _fulfillmentId, address payable[] _fulfillers, string _data);
+event FulfillmentAccepted(uint _bountyId, uint  _fulfillmentId, address _approver, uint[] _tokenAmounts);
+event BountyChanged(uint _bountyId, address _changer, address payable[] _issuers, address payable[] _approvers, string _data, uint _deadline);
+event BountyIssuersUpdated(uint _bountyId, address _changer, address payable[] _issuers);
+event BountyApproversUpdated(uint _bountyId, address _changer, address[] _approvers);
+event BountyDataChanged(uint _bountyId, address _changer, string _data);
+event BountyDeadlineChanged(uint _bountyId, address _changer, uint _deadline);
+```

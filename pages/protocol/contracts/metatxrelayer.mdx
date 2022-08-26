@@ -1,3 +1,75 @@
 # MetaTxRelayer
 
-About the Meta Transaction Relayer
+## Public Functions
+
+```
+metaIssueBounty(): creates a new bounty
+```
+
+```
+metaIssueAndContribute(): creates a new bounty and deposits token amounts
+```
+
+```
+metaContribute(): contribute tokens to an existing bounty
+```
+
+```
+metaRefundContribution(): allows issuers to refund contributions made to a bounty, but only if it hasn't been paid out and deadline has elapsed
+```
+
+```
+metaRefundContributions(): allow users to refund their contirbutions in bulk, but only if it hasn't been paid out and deadline has elapsed
+```
+
+```
+metaDrainBounty(): drain funds from a bounty, but only if any payments haven't been made
+```
+
+```
+metaPerformAction(): perform a generalized action, such as applying for it (useful for marketplace specific actions you want to record)
+```
+
+```
+metaFulfillBounty(): allow contributors to fulfill the bounty to get paid out 
+```
+
+```
+metaUpdateFulfillment(): allow contributors to update their fulfillment submission
+```
+
+```
+metaAcceptFulfillment(): allow any approver to accept a given submission
+```
+
+```
+metaFulfillAndAccept(): allow any approver to fulfill and accept submission simultaneously (useful if fulfillments are off chain)
+```
+
+```
+metaChangeBounty(): allow issuers to change any data in the bounty
+```
+
+```
+metaChangeIssuer(): allow issuers to change approver of the bounty
+```
+
+```
+metaChangeIssuerAndApprover(): allow issuers to change approver and issuer of the bounty
+```
+
+```
+metaChangeData(): allow issuers to change the ipfs data hash with bounty data 
+```
+
+```
+metaChangeDeadline(): allow issuers to change deadline
+```
+
+```
+metaAddIssuers(): allow issuer to add another issuer to the bounty
+```
+
+```
+metaAddApprovers(): allow issuer to add an approver for the bounty 
+```
