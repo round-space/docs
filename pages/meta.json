@@ -1,8 +1,6 @@
 {
-    "index": "Aikido Docs",
+    "index": "About these Docs",
     "protocol": "Protocol Overview",
     "product-guides": "Product Guides",
-    "advanced": "Advanced Options",
-    "guides": "Community Guides",
-    "developers": "Building on Aikido"
+    "guides": "Community Guides"
 }

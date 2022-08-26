@@ -65,7 +65,7 @@ export default {
   prevLinks: false,
   nextLinks: true,
   footer: false,
-  defaultMenuCollapsed: true,
+  defaultMenuCollapsed: false,
   footerEditLink: 'Edit this page on GitHub',
   footerText: <>MIT {new Date().getFullYear()} © Lab0324, Inc..</>,
   unstable_faviconGlyph: '🥷',
