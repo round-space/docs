@@ -1,9 +1,7 @@
 {
     "index": "Getting Started",
-    "creating": "Creating a Bounty",
-    "claims": "Participating with Bounties",
-    "rewards": "How Rewards Work",
-    "sharing": "Sharing Bounties",
-    "boards": "Bounty Boards",
+    "bounty-wizard": "Bounty.new Wizard",
+    "bounty-boards": "Bounty Boards",
+    "gnosis-safe-app": "Gnosis Safe App",
     "advanced": "Advanced Options"
 }
