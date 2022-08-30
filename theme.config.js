@@ -3,7 +3,7 @@ import React from 'react'
 export default {
   github: 'https://github.com/withmeed/aikido',
   docsRepositoryBase: 'https://github.com/withmeed/aikido-docs/blob/master',
-  titleSuffix: 'Aikdio Documentation',
+  titleSuffix: '- Aikido Documentation',
   floatTOC: true,
   logo: (
     <>
