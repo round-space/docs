@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default {
-  github: 'https://github.com/withmeed/aikido',
+  github: 'https://github.com/lab0324/contracts',
   docsRepositoryBase: 'https://github.com/withmeed/aikido-docs/blob/master',
   titleSuffix: '- Aikido Documentation',
   floatTOC: true,
@@ -66,6 +66,7 @@ export default {
   nextLinks: true,
   footer: false,
   defaultMenuCollapsed: false,
+  projectLink: 'https://github.com/lab0324/contracts',
   footerEditLink: 'Edit this page on GitHub',
   footerText: <>MIT {new Date().getFullYear()} © Lab0324, Inc..</>,
   unstable_faviconGlyph: '🥷',
