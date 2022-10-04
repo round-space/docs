@@ -1,0 +1,24 @@
+import Image from 'next/image'
+
+# Gnosis Safes
+
+You can set up your board or bounties to pull funds from a Gnosis safe. 
+
+## Linking a Safe
+
+Linking a Safe wallet can be done one of two ways:
+
+* In your [board settings](https://www.aikido.work/dashboard/settings) page, where you can enter an optional **Safe Wallet address**. Please note that you have to have an active Safe on the same chain you're setting up your board with. e.g. If you are using (polygon.aikido.work)[https://polygon.aikido.work], your linked Safe needs to be on Polygon as well.
+* On a bounty using [bounty.new](https://bounty.new), when you are selecting your Reward Amount. 
+
+<Image src="/connect-safe.png" alt="Connect Gnosis Safe" width={900} height={725} />
+
+Please ensure that the Safe being used has the active Aikido signed-in wallet as a signatory. For example, bounties created using a Safe on the board aikido.work/board/vitalik.eth should have vitalik.eth as an approver.  
+
+## Creating a Bounty
+
+When creating a bounty using a Safe, you will notice that creating a bounty only requires a signature. Once completed, you'll see a prompt on the bounty page to Complete the process by approving the transaction in your Gnosis safe transaction queue. While this is pending, the bounty status is "Creating" and no claims are allowed on the bounty.
+
+## Rewarding a Bounty
+
+Submissions on a bounty created using a Safe doesn't affect the submitters experience. Once a submission is ready to be rewarded, a signature is required and the reward amounts are automatically released. This makes a Safe bounty more gas efficient than a bounty from a regular Eth wallet like Metamask.
