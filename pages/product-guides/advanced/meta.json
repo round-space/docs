@@ -2,6 +2,7 @@
     "gnosis": "Using Gnosis Safes",
     "applications": "Bounty Applications",
     "additional-funding": "Additional Funding",
-  "batch-payments": "Batch Payments",
+    "batch-payments": "Batch Payments",
+    "email": "Email Notifications",
     "discord": "Discord Integration"
 }

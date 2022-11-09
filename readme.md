@@ -1,4 +1,3 @@
-# Aikido Docs
+# Aikido Product Guides and Protocol Docs
 
-Created using [Nextra](nextra.vercel.app). 
-
+Created using [Nextra](nextra.vercel.app).
