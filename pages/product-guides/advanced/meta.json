@@ -3,7 +3,7 @@
     "applications": "Bounty Applications",
     "additional-funding": "Additional Funding",
     "batch-payments": "Batch Payments",
-    "subscriptions" : "Workspace Subscriptions"
+    "subscriptions" : "Workspace Subscriptions",
     "email": "Email Notifications",
     "custom-urls": "Custom URLs",
     "discord": "Discord Integration"
