@@ -17,8 +17,13 @@ Please ensure that the Safe being used has the active Aikido signed-in wallet as
 
 ## Creating a Bounty
 
-When creating a bounty using a Safe, you will notice that creating a bounty only requires a signature. Once completed, you'll see a prompt on the bounty page to Complete the process by approving the transaction in your Gnosis safe transaction queue. While this is pending, the bounty status is "Creating" and no claims are allowed on the bounty.
+When creating a bounty using a Safe, you will notice that creating a bounty only requires a signature. Once completed, you'll see a prompt on the bounty page to Complete the process by approving the transaction in your Gnosis safe transaction queue. This will appear for other signatories as well.
+
+While this is pending, the bounty status is "Creating" and no claims are allowed on the bounty.
+
+Once the required N of M signatories on the SAFE have approved the transaction, the bounty is created and Funds are moved into Aikido contract.
+
 
 ## Rewarding a Bounty
 
-Submissions on a bounty created using a Safe doesn't affect the submitters experience. Once a submission is ready to be rewarded, a signature is required and the reward amounts are automatically released. This makes a Safe bounty more gas efficient than a bounty from a regular Eth wallet like Metamask.
+Submissions on a bounty created using a Safe doesn't affect the submitters experience. Once a submission is ready to be rewarded, a signature is required and the reward amounts can be released from the contract by the original issuer. This does not require any additional signatures - it is assumed that putting the funds in escrow gives authority of that distribution to the original issuer of the bounty.
