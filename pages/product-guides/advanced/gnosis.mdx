@@ -2,28 +2,28 @@ import Image from 'next/image'
 
 # Gnosis Safes
 
-You can set up your board or bounties to pull funds from a Gnosis safe. 
+You can set up your space or bounties to pull funds from a Gnosis safe. 
 
 ## Linking a Safe
 
 Linking a Safe wallet can be done one of two ways:
 
-* In your [board settings](https://www.aikido.work/dashboard/settings) page, where you can enter an optional **Safe Wallet address**. Please note that you have to have an active Safe on the same chain you're setting up your board with. e.g. If you are using (polygon.aikido.work)[https://polygon.aikido.work], your linked Safe needs to be on Polygon as well.
+* In your [space settings](https://www.round.space/dashboard/settings) page, where you can enter an optional **Safe Wallet address**. Please note that you have to have an active Safe on the same chain you're setting up your space with. e.g. If you are using (polygon.round.space)[https://polygon.round.space], your linked Safe needs to be on Polygon as well.
 * On a bounty using [bounty.new](https://bounty.new), when you are selecting your Reward Amount. 
 
 <Image src="/connect-safe.png" alt="Connect Gnosis Safe" width={900} height={725} />
 
-Please ensure that the Safe being used has the active Aikido signed-in wallet as a signatory. For example, bounties created using a Safe on the board aikido.work/board/vitalik.eth should have vitalik.eth as an approver.  
+Please ensure that the Safe being used has the active Round signed-in wallet as a signatory. For example, bounties created using a Safe on the space round.space/space/vitalik.eth should have vitalik.eth as an approver.  
 
-## Creating a Bounty
+## Creating a Round
 
 When creating a bounty using a Safe, you will notice that creating a bounty only requires a signature. Once completed, you'll see a prompt on the bounty page to Complete the process by approving the transaction in your Gnosis safe transaction queue. This will appear for other signatories as well.
 
 While this is pending, the bounty status is "Creating" and no claims are allowed on the bounty.
 
-Once the required N of M signatories on the SAFE have approved the transaction, the bounty is created and Funds are moved into Aikido contract.
+Once the required N of M signatories on the SAFE have approved the transaction, the bounty is created and Funds are moved into Round contract.
 
 
-## Rewarding a Bounty
+## Rewarding a Round
 
 Submissions on a bounty created using a Safe doesn't affect the submitters experience. Once a submission is ready to be rewarded, a signature is required and the reward amounts can be released from the contract by the original issuer. This does not require any additional signatures - it is assumed that putting the funds in escrow gives authority of that distribution to the original issuer of the bounty.
