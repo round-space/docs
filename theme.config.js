@@ -3,11 +3,11 @@ import React from 'react'
 export default {
   github: 'https://github.com/lab0324/contracts',
   docsRepositoryBase: 'https://github.com/withmeed/aikido-docs/blob/master',
-  titleSuffix: '- Aikido Documentation',
+  titleSuffix: '- Round Documentation',
   floatTOC: true,
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Aikido</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Round</span>
       <span className="text-gray-600 font-normal hidden md:inline">
         Product and Protocol Documentation
       </span>
@@ -19,15 +19,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Aikido: Product and Protocol Documentation" />
-      <meta name="og:description" content="Aikido: Product and Protocol Documentation" />
+      <meta name="description" content="Round: Product and Protocol Documentation" />
+      <meta name="og:description" content="Round: Product and Protocol Documentation" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://docs.aikido.work/og.png" />
-      <meta name="twitter:site:domain" content="docs.aikido.work" />
-      <meta name="twitter:url" content="https://docs.aikido.work" />
-      <meta name="og:title" content="Aikido: Product and Protocol Documentation" />
-      <meta name="og:image" content="https://docs.aikido.work/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Aikido Documentation" />
+      <meta name="twitter:image" content="https://docs.round.space/og.png" />
+      <meta name="twitter:site:domain" content="docs.round.space" />
+      <meta name="twitter:url" content="https://docs.round.space" />
+      <meta name="og:title" content="Round: Product and Protocol Documentation" />
+      <meta name="og:image" content="https://docs.round.space/og.png" />
+      <meta name="apple-mobile-web-app-title" content="Round Documentation" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
