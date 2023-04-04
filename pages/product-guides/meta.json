@@ -1,6 +1,6 @@
 {
     "index": "Getting Started",
-    "bounty-wizard": "Round.new Wizard",
-    "bounty-boards": "Round Spaces",
+    "round-wizard": "Round.new Wizard",
+    "round-spaces": "Round Spaces",
     "advanced": "Advanced Options"
 }   
